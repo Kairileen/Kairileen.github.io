@@ -137,7 +137,14 @@ background-color: #5229a523;
   margin-right: 0px;
 }
 
+.cardpro{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 50px;
 
+}
   
   @media screen and (max-width: 1400px) {
     .topnav a:not(:first-child) {display: none;}
